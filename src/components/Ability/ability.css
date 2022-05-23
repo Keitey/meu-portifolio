@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 65vh;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.ability{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 130px;
+}
+
+.ability>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.ability>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.d-button{
+    width: 8rem;
+    height: 3.3rem;
+    padding: 8px;
+}
+
+.Cards{
+    background-color: #F5F9F8;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+

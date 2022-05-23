@@ -1,0 +1,94 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 30px;
+    padding: 2.5rem;
+}
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-right{
+    flex: 1;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3){
+    color: var(--gray);
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.i-button{
+    width: 7rem;
+    height: 3rem;
+    padding: 10px;
+}
+
+.i-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    transition: .5s ease-in-out;
+    margin-top: 30px;
+}
+
+.i-icons a{
+    color: #FCA61F;
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+    color: hsl(317 100% 54%);
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+    margin-right: 10rem;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){
+    top: -48%;
+    transform: scale(0.69);
+}
+
+.i-right>:nth-child(2){
+    top: -7.6rem;
+    transform: scale(0.67);
+    left: -5rem;
+}
+
+.i-right>:nth-child(3){
+    top: -7.6rem;
+    transform: scale(0.67);
+    left: -13rem;
+    top: -17rem;
+}
