@@ -8,8 +8,7 @@ h1{
 
 .item{
     min-height: 20rem;
-    min-width: 41.5rem;
-    /* padding: 40px; */
+    min-width: 33.5rem;
 }
 
 .item img{
@@ -28,4 +27,24 @@ h1{
     cursor: grab;
     margin: 0 20%;
     overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    .carousel{
+        width: 100%;
+        margin: 0 5%;
+        display: block;
+    }
+
+    .item{
+        min-height: 20rem;
+        min-width: 52rem;
+    }
+
+    .item img{
+        height: 50%;
+        border-radius: 0.5rem;
+        border: 2px solid #FCA61F;
+        pointer-events: none;
+    }
 }

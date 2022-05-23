@@ -2,7 +2,7 @@
     display: flex;
     height: 77vh;
     margin-top: 30px;
-    padding: 2.5rem;
+    padding: 4.5rem;
 }
 
 .i-left{
@@ -11,6 +11,7 @@
     flex: 1;
     flex-direction: column;
     gap: 2rem;
+    padding-top: 6rem;
 }
 
 .i-right{
@@ -41,12 +42,6 @@
     margin-top: 10px;
 }
 
-.i-button{
-    width: 7rem;
-    height: 3rem;
-    padding: 10px;
-}
-
 .i-icons{
     display: flex;
     flex-direction: row;
@@ -67,7 +62,7 @@
 .i-right{
     flex: 1;
     position: relative;
-    margin-right: 10rem;
+    margin-right: 22rem;
 }
 
 .i-right>*{
@@ -76,19 +71,35 @@
 }
 
 .i-right>:nth-child(1){
-    top: -48%;
-    transform: scale(0.69);
+    top: -39%;
+    transform: scale(0.89);
 }
 
 .i-right>:nth-child(2){
     top: -7.6rem;
-    transform: scale(0.67);
+    transform: scale(0.78);
     left: -5rem;
 }
 
 .i-right>:nth-child(3){
     top: -7.6rem;
-    transform: scale(0.67);
-    left: -13rem;
-    top: -17rem;
+    transform: scale(0.4);
+    left: -11rem;
+    top: -29rem;
+    height: 1300px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .intro{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .i-right{
+        transform: scale(0.5);
+        left: -3rem;
+        justify-content: center;
+        align-items: center;
+    }
 }

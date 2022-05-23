@@ -1,9 +1,9 @@
 .container{
     display: flex;
-    justify-content: space-between;
-    padding: 2rem;
+    justify-content: space-around;
+    padding: 1.5rem;
     height: 65vh;
-    margin-top: 8rem;
+    margin-top: 11rem;
     margin-bottom: 8rem;
 }
 
@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-right: 130px;
+    margin-right: 100px;
 }
 
 .ability>:nth-child(1){
@@ -33,16 +33,44 @@
     padding: 8px;
 }
 
-.Cards{
-    background-color: #F5F9F8;
-    width: 200px;
-    height: 45px;
-    display: flex;
-    color: #000;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+.a-right{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 7px 8px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . .";
 }
 
+.a-right span{
+    width: 160px;
+    height: 45px;
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: rgba(252, 166, 31, 0.45) 0px 3px 6px, rgba(245, 194, 24, 0.3) 0px 3px 6px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.a-right span:hover{
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        flex-direction: column;
+        margin-top: 18rem;
+    }
+
+    .ability{
+        padding-bottom: 3rem;
+        width: 100%;
+    }
+
+    .a-right span{
+        width: 100%;
+        height: 100%;
+    }
+}

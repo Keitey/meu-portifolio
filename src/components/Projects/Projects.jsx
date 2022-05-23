@@ -13,7 +13,7 @@ const Projects = () => {
   },[]);
 
   return (
-    <>
+    <div id="Projects">
       <h1>Projetos</h1>
       <motion.div ref={carousel} className="carousel">
         <motion.div className="inner-carousel" drag="x" dragConstraints={{right:0, left: - width}}>
@@ -26,7 +26,7 @@ const Projects = () => {
         })}
         </motion.div>
       </motion.div>
-    </>
+    </div>
   );
 };
 
