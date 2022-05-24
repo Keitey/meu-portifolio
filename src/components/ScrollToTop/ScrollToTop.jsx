@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import "./scrollToTop.css";
-import { FaAngleUp } from "react-icons/fa";
+import { FiArrowUpCircle } from "react-icons/fi";
 
 const ScrollToTop = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
@@ -27,7 +27,7 @@ const ScrollToTop = () => {
     <div className="top-to-btm">
       {" "}
       {showTopBtn && (
-        <FaAngleUp className="icon-position icon-style" onClick={goToTop} />
+        <FiArrowUpCircle className="icon-position icon-style" onClick={goToTop} />
       )}{" "}
     </div>
   );
