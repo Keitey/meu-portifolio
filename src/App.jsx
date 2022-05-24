@@ -7,6 +7,7 @@ import Intro from "./components/Intro/Intro";
 import Ability from "./components/Ability/Ability";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 import "./index.css";
 
@@ -24,6 +25,7 @@ function App () {
       <Intro />
       <Ability />
       <Projects />
+      <ScrollToTop />
       <Footer />
     </div>
   );

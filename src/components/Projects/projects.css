@@ -2,7 +2,7 @@
 h1{
     text-align: center;
     margin-bottom: 40px;
-    padding-top: 25px;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -46,5 +46,9 @@ h1{
         border-radius: 0.5rem;
         border: 2px solid #FCA61F;
         pointer-events: none;
+    }
+
+    h1{
+        padding-top: 6rem;  
     }
 }

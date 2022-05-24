@@ -35,8 +35,7 @@ const Intro = () => {
           </a>
           <a
             href="mailto:keiteybarros@gmail.com"
-            target="_blank"
-            rel="noreferrer"
+            target="_blank" rel="noopener noreferrer"
           >
             <SiMaildotru size={38} alt="icon email" />
           </a>

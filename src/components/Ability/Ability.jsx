@@ -16,11 +16,16 @@ const Ability = () => {
           Minhas habilidades
         </span>
         <span>
-          Essas as tasks que desenvolvi ao longo da <br /> minha jornada como
-          desenvolvedora
+          Olá, bem vindo(a)! <br />
+          Sou apaixonada pelo mundo do desenvolvimento, acho incrível ver o
+          código rodando e cumprindo seu objetivo. Essas as tasks que desenvolvi
+          ao longo da minha jornada como desenvolvedora Front End.
+          <br />
+          “Programadores e artistas são os únicos profissionais que tem como
+          hobby a própria profissão.” – Rafael Lain
         </span>
         <a href={Curriculo} download>
-        <button className="button d-button">Download Currículo</button>
+          <button className="button d-button">Download Currículo</button>
         </a>
       </div>
       <div className="a-right">
