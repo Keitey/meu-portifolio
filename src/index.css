@@ -12,6 +12,7 @@
     --btnShadow:0px 10px 24px 3px hsl(317 100% 54%);
     --btnBackground:hsl(317 100% 54%);
     max-width: 1400px;
+    margin: 0 auto;
 } 
 
 .App{

@@ -38,7 +38,7 @@ h1{
 
     .item{
         min-height: 20rem;
-        min-width: 52rem;
+        min-width: 28rem;
     }
 
     .item img{
@@ -49,6 +49,6 @@ h1{
     }
 
     h1{
-        padding-top: 6rem;  
+        padding-top: 2rem;  
     }
 }

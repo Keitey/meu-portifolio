@@ -2,7 +2,7 @@ h5{
     background-color: #FCA61F;
     font-size: 15px;
     height: 4.3vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }

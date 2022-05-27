@@ -96,15 +96,26 @@
     .intro{
         flex-direction: column;
         width: 100vw;
-        margin-top: -8rem;
+        margin-top: -76px;
         padding: 2.5rem;
     }
 
     .i-right{
         transform: scale(0.5);
-        left: -3rem;
         justify-content: center;
         align-items: center;
     }
+    
+    .i-name{
+        text-align: center;
+    }
 
+    .i-icons{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ability > :nth-child(1){
+        text-align: center;
+    }
 }
