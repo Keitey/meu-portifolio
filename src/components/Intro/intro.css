@@ -105,6 +105,7 @@
         justify-content: center;
         align-items: center;
     }
+
     
     .i-name{
         text-align: center;
@@ -117,5 +118,21 @@
 
     .ability > :nth-child(1){
         text-align: center;
+    }
+
+    .i-right>:nth-child(1){
+        transform: scale(0.75);
+        left: -130px;
+    }
+
+    .i-right>:nth-child(2){
+        transform: scale(0.75);
+        left: -7rem;
+        top: -65px;
+    }
+    
+    .i-right>:nth-child(3){
+        top: -25rem;
+        left: -13rem;
     }
 }
