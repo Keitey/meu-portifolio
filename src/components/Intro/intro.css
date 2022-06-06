@@ -113,7 +113,7 @@
 
   .i-icons {
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom: 26px;
   }
 
