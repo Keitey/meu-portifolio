@@ -104,7 +104,7 @@
         transform: scale(0.55);
         justify-content: center;
         align-items: center;
-        top: 40px;
+        top: 60px;
     }
     
     .i-name{
@@ -114,7 +114,7 @@
     .i-icons{
         align-items: center;
         justify-content: center;
-        padding-bottom: 20px;
+        padding-bottom: 26px;
     }
 
     .ability > :nth-child(1){
@@ -137,7 +137,4 @@
         left: -13rem;
     }
 
-    /* .i-left{
-        margin-bottom: 68px;
-    } */
 }
