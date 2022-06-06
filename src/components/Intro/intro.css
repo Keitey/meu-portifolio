@@ -101,12 +101,11 @@
     }
 
     .i-right{
-        transform: scale(0.5);
+        transform: scale(0.55);
         justify-content: center;
         align-items: center;
-        left: 30px;
+        top: 40px;
     }
-
     
     .i-name{
         text-align: center;
@@ -137,4 +136,8 @@
         top: -25rem;
         left: -13rem;
     }
+
+    /* .i-left{
+        margin-bottom: 68px;
+    } */
 }
