@@ -2,9 +2,7 @@
   display: flex;
   justify-content: space-around;
   padding: 1.5rem;
-  /* height: 650px; */
   margin-top: 14rem;
-  /* margin-bottom: 8rem; */
   align-items: center;
 }
 
@@ -12,7 +10,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  /* margin-right: 100px; */
   width: 410px;
 }
 
@@ -68,7 +65,7 @@
   transform: scale(0.9);
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .container {
     flex-direction: column;
     margin-top: 18rem;
@@ -85,7 +82,7 @@
 
   .ability > :nth-child(1) {
     padding-top: -3rem;
-    margin-top: 165px;
+    margin-top: 54px;
   }
 
   .ability > :nth-child(2) {
