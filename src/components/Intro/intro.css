@@ -104,6 +104,7 @@
         transform: scale(0.5);
         justify-content: center;
         align-items: center;
+        left: 30px;
     }
 
     
@@ -114,6 +115,7 @@
     .i-icons{
         align-items: center;
         justify-content: center;
+        padding-bottom: 20px;
     }
 
     .ability > :nth-child(1){
