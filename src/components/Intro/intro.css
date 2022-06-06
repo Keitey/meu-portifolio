@@ -111,12 +111,6 @@
     text-align: center;
   }
 
-  .i-icons {
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 26px;
-  }
-
   .ability > :nth-child(1) {
     text-align: center;
   }
@@ -137,5 +131,10 @@
     left: -6rem;
     height: 900px;
     transform: scale(0.55);
+  }
+
+  .i-icons {
+    align-items: center;
+    justify-content: space-around;
   }
 }
