@@ -1,140 +1,141 @@
-.intro{
-    display: flex;
-    height: 77vh;
-    margin-top: 30px;
-    padding: 4.5rem;
+.intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 30px;
+  padding: 4.5rem;
 }
 
-.i-left{
-    display: flex;
-    position: relative;
-    flex: 1;
-    flex-direction: column;
-    gap: 2rem;
-    padding-top: 6rem;
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 6rem;
 }
 
-.i-right{
-    flex: 1;
+.i-right {
+  flex: 1;
 }
 
-.i-name{
-    display: flex;
-    flex-direction: column;
+.i-name {
+  display: flex;
+  flex-direction: column;
 }
 
-.i-name>:nth-child(1){
-    color: var(--black);
-    font-weight: bold;
-    font-size: 3rem;
+.i-name > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
 }
 
-.i-name>:nth-child(2){
-    color: var(--orange);
-    font-weight: bold;
-    font-size: 3rem;
+.i-name > :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
 }
 
-.i-name>:nth-child(3){
-    color: var(--gray);
-    font-weight: 300;
-    font-size: 20px;
-    margin-top: 10px;
+.i-name > :nth-child(3) {
+  color: var(--gray);
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
-.i-icons{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    transition: .5s ease-in-out;
-    margin-top: 30px;
+.i-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  transition: 0.5s ease-in-out;
+  margin-top: 30px;
 }
 
-.i-icons a{
-    color: #FCA61F;
+.i-icons a {
+  color: #fca61f;
 }
 
-.i-icons>*:hover{
-    cursor: pointer;
-    color: hsl(317 100% 54%);
+.i-icons > *:hover {
+  cursor: pointer;
+  color: hsl(317 100% 54%);
 }
 
-.i-right{
-    flex: 1;
-    position: relative;
-    margin-right: 22rem;
+.i-right {
+  flex: 1;
+  position: relative;
+  margin-right: 22rem;
 }
 
-.i-right>*{
-    position: absolute;
-    z-index: 1;
+.i-right > * {
+  position: absolute;
+  z-index: 1;
 }
 
-.i-right>:nth-child(1){
-    top: -39%;
-    transform: scale(0.89);
+.i-right > :nth-child(1) {
+  top: -39%;
+  transform: scale(0.89);
 }
 
-.i-right>:nth-child(2){
-    top: -7.6rem;
-    transform: scale(0.78);
-    left: -5rem;
+.i-right > :nth-child(2) {
+  top: -7.6rem;
+  transform: scale(0.78);
+  left: -5rem;
 }
 
-.i-right>:nth-child(3){
-    top: -7.6rem;
-    transform: scale(0.4);
-    left: -11rem;
-    top: -29rem;
-    height: 1300px;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+.i-right > :nth-child(3) {
+  top: -7.6rem;
+  transform: scale(0.4);
+  left: -11rem;
+  top: -29rem;
+  height: 1300px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
 }
 
 @media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    width: 100vw;
+    margin-top: -76px;
+    padding: 2.5rem;
+  }
 
-    .intro{
-        flex-direction: column;
-        width: 100vw;
-        margin-top: -76px;
-        padding: 2.5rem;
-    }
+  .i-right {
+    transform: scale(0.55);
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+    margin-right: 15rem;
+  }
 
-    .i-right{
-        transform: scale(0.55);
-        justify-content: center;
-        align-items: center;
-        top: 60px;
-    }
-    
-    .i-name{
-        text-align: center;
-    }
+  .i-name {
+    text-align: center;
+  }
 
-    .i-icons{
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 26px;
-    }
+  .i-icons {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 26px;
+  }
 
-    .ability > :nth-child(1){
-        text-align: center;
-    }
+  .ability > :nth-child(1) {
+    text-align: center;
+  }
 
-    .i-right>:nth-child(1){
-        transform: scale(0.75);
-        left: -130px;
-    }
+  .i-right > :nth-child(1) {
+    transform: scale(0.75);
+    left: -130px;
+  }
 
-    .i-right>:nth-child(2){
-        transform: scale(0.75);
-        left: -7rem;
-        top: -65px;
-    }
-    
-    .i-right>:nth-child(3){
-        top: -25rem;
-        left: -13rem;
-    }
+  .i-right > :nth-child(2) {
+    transform: scale(0.75);
+    left: -7rem;
+    top: -65px;
+  }
 
+  .i-right > :nth-child(3) {
+    top: -10rem;
+    left: -6rem;
+    height: 900px;
+    transform: scale(0.55);
+  }
 }

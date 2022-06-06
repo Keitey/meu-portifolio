@@ -85,6 +85,7 @@
 
   .ability > :nth-child(1) {
     padding-top: -3rem;
+    margin-top: 165px;
   }
 
   .ability > :nth-child(2) {
