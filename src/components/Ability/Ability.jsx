@@ -18,7 +18,7 @@ const Ability = () => {
         <span>
           Olá, bem vindo(a)! <br />
           Sou apaixonada pelo mundo do desenvolvimento, acho incrível ver o
-          código rodando e cumprindo seu objetivo. Essas as tasks que desenvolvi
+          código rodando e cumprindo seu objetivo. Essas são as tasks que desenvolvi
           ao longo da minha jornada como desenvolvedora Front End.
           <br />
           “Programadores e artistas são os únicos profissionais que tem como
